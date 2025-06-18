@@ -5,7 +5,7 @@ function setVhUnit() {
 setVhUnit();
 window.addEventListener('resize', setVhUnit);
 
-// 🎯 Chips animadas
+/* 🎯 Chips animadas
 const chipsContainer = document.querySelector(".chips-container");
 
 const colors = ['#D32F2F', '#9C27B0', '#FFD700', '#030001']; // rojo, violeta, dorado
@@ -44,6 +44,7 @@ function createChip() {
 
 // Lanzar una ficha cada 250ms
 setInterval(createChip, 250);
+*/
 
 // 📱 Lógica de WhatsApp + GA
 document.addEventListener("DOMContentLoaded", () => {
